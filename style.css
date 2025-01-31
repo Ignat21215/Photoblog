@@ -1,0 +1,13 @@
+:root {
+    --paragraph-color: #7D7D7D;
+    --link-color: #03A9F4;
+    --subtitle-color: #B4AD9E;
+    --article-text-color: #626262;
+}
+:root {
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
+}
+body {
+    font-family: var(--font-family)
+}
