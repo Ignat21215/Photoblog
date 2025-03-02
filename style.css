@@ -1,13 +1,155 @@
+/*! З М І Н Н І */
+
 :root {
-    --paragraph-color: #7D7D7D;
-    --link-color: #03A9F4;
-    --subtitle-color: #B4AD9E;
-    --article-text-color: #626262;
+    --paragraph-color: rgba(125, 125, 125, 1);
+    --link-color: rgba(3, 169, 244, 1);
+    --subtitle-color: rgba(180, 173, 158, 1);
+    --article-text-color: rgba(98, 98, 98, 1);
+    --background-color: rgba(255, 255, 255, 1);
 }
+
 :root {
     --font-family: "Playfair Display", sans-serif;
     --second-family: "Ubuntu", sans-serif;
 }
+
+/*! З А Г А Л Ь Н І  С Т И Л І */
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: var(--link-color);
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-    font-family: var(--font-family)
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.container {
+    width: 908px;
+    margin: 0 auto;
+}
+
+body,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*! Х Е Д Е Р */
+
+.header {
+    padding-top: 71px;
+    padding-right: 183px;
+    padding-left: 168px;
+    padding-bottom: 92px;
+    align-content: center;
+    font-size: 14px;
+}
+
+.header-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 99px;
+    width: 555px;
+    margin: 0 auto;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: var(--paragraph-color);
+}
+
+.header-link {
+    color: var(--paragraph-color);
+    line-height: 18.66px;
+    font-weight: inherit;
+}
+
+/*! О С Н О В Н А   С Е К Ц І Я */
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    padding-top: 0px;
+    padding-right: 147px;
+    padding-left: 147px;
+    padding-bottom: 66px;
+}
+
+.hero-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+
+.hero-article {
+    width: 426px;
+    height: 542px;
+}
+
+.hero-image,
+.hero-subtitle {
+    margin-bottom: 32px;
+}
+
+.hero-item:nth-child(n+3) {
+    margin-top: 130px;
+}
+
+/*! Х Е Р О  Т Е К С Т */
+
+.hero-title {
+    margin-bottom: 44px;
+    font-size: 30px;
+    color: var(--article-text-color);
+    line-height: 16.09px;
+    font-weight: 400;
+}
+
+.hero-subtitle {
+    color: var(--subtitle-color);
+    font-family: var(--second-family);
+    line-height: 18.66px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.hero-desk {
+    font-family: var(--font-family);
+    color: var(--article-text-color);
+    font-weight: 400;
+    line-height: 18.66px;
+}
+
+/*! К Н О П К А */
+
+.hero-btn {
+    margin: 0 auto;
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border-width: ;
+    box-sizing: border-box;
+    color: var(--article-text-color);
+    border-color: var(--article-text-color);
+    border-width: 1px;
+    line-height: 18.66px;
+    font-weight: inherit;
 }
