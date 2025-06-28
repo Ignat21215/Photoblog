@@ -55,7 +55,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 99px;
-    margin: 0 auto;
     list-style-type: none;
     text-transform: uppercase;
     color: var(--paragraph-color);
