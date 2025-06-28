@@ -180,6 +180,10 @@ textarea {
     /* 1 */
     line-height: 1.15;
     /* 1 */
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> 6ecc59ae6cdb7c77b0197a9c4713b6156acb5123
     /* 2 */
 }
 
@@ -375,4 +379,8 @@ template {
 
 [hidden] {
     display: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6ecc59ae6cdb7c77b0197a9c4713b6156acb5123
