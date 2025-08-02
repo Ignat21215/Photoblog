@@ -165,28 +165,34 @@ table {
   border-spacing: 0;
 }
 
-.header {
-  padding: 71px 183px 92px 168px;
-}
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 99px;
-  list-style-type: none;
-  text-transform: uppercase;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__subtitle, .hero__desc, .btn, .header__link {
+  line-height: 1;
+  font-size: 14px;
+}
+
+.header {
+  padding: 71px 183px 92px 168px;
+}
+.header__list {
+  gap: 99px;
+  list-style-type: none;
+  text-transform: uppercase;
 }
 .header__link {
   color: rgb(125, 125, 125);
-  line-height: 18.66px;
   font-weight: inherit;
-  font-size: 14px;
   font-weight: 400;
 }
 .header__link:hover {
@@ -223,7 +229,6 @@ table {
   margin-bottom: 32px;
   color: rgb(180, 173, 158);
   font-family: "Ubuntu", sans-serif;
-  line-height: 18.66px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -238,7 +243,6 @@ table {
   font-family: "Playfair Display", sans-serif;
   color: rgb(98, 98, 98);
   font-weight: 400;
-  line-height: 18.66px;
 }
 
 .btn {
@@ -250,6 +254,6 @@ table {
   display: block;
   margin: 0 auto;
   padding: 20px 48px 21px 49px;
-  line-height: 18.66px;
   letter-spacing: 0;
+  border-radius: 16px;
 }

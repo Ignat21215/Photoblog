@@ -1,24 +1,22 @@
 @use '../utils/variables' as *;
 @use '../base/base' as *;
 @use '../base/reset' as *;
+@use '../utils/placeholders' as *;
 
 .header {
   padding: 71px 183px 92px 168px;
 
   &__list {
-    display: flex;
-    align-items: center;
+    @extend %flex;
     gap: 99px;
     list-style-type: none;
     text-transform: uppercase;
-    justify-content: center;
   }
 
   &__link {
       color: $paragraph-color;
-      line-height: 18.66px;
       font-weight: inherit;
-      font-size: 14px;
+      @extend %txt;
       font-weight: 400;
 
       &:hover {

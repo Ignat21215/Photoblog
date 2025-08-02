@@ -1,6 +1,7 @@
 @use "../utils/variables" as *;
 @use "../base/base" as *;
 @use "../base/reset" as *;
+@use "../utils/placeholders" as *;
 
 .hero {
   padding-right: 147px;
@@ -29,7 +30,7 @@
     margin-bottom: 32px;
     color: $subtitle-color;
     font-family: $secondary-font;
-    line-height: 18.66px;
+    @extend %txt;
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -46,7 +47,7 @@
     font-family: $main-font;
     color: $article-text-color;
     font-weight: 400;
-    line-height: 18.66px;
+    @extend %txt;
   }
 }
 
@@ -59,6 +60,7 @@
   display: block;
   margin: 0 auto;
   padding: 20px 48px 21px 49px;
-  line-height: 18.66px;
+  @extend %txt;
   letter-spacing: 0;
+  border-radius: 16px;
 }
