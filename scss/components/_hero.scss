@@ -1,0 +1,64 @@
+@use "../utils/variables" as *;
+@use "../base/base" as *;
+@use "../base/reset" as *;
+
+.hero {
+  padding-right: 147px;
+  padding-left: 147px;
+  padding-bottom: 66px;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+    gap: 65px;
+    row-gap: 130px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 65px) / 3);
+  }
+
+  &__image {
+    margin-bottom: 32px;
+  }
+
+  &__subtitle {
+    margin-bottom: 32px;
+    color: $subtitle-color;
+    font-family: $secondary-font;
+    line-height: 18.66px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: $article-text-color;
+    line-height: 16.09px;
+    font-weight: 400;
+  }
+
+  &__desc {
+    font-family: $main-font;
+    color: $article-text-color;
+    font-weight: 400;
+    line-height: 18.66px;
+  }
+}
+
+.btn {
+  background-color: white;
+  color: $article-text-color;
+  border-color: $article-text-color;
+  border-width: 1px;
+  font-weight: inherit;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 48px 21px 49px;
+  line-height: 18.66px;
+  letter-spacing: 0;
+}
