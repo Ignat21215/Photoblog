@@ -3,7 +3,8 @@
 @use '../base/reset' as *;
 
 .header {
-  padding: 71px 183px 92px 168px;
+  padding-top: 71px;
+  padding-bottom: 94px;
 
   &__list {
     display: flex;
