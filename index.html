@@ -1,152 +1,146 @@
 <!-- Оголошення формату/типу документу -->
 <!DOCTYPE html>
 <html lang="eng">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photoblog</title>
-    <link href="./css/main.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <!-- Зміст (основна частина документу)  -->
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="header__navigation">
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="" class="header__link">LIFESTYLE</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">PHOTODIARY</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">MUSIC</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">TRAVEL</a>
-            </li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoblog</title>
+  <link href="./css/main.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+<!-- Зміст (основна частина документу)  -->
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__navigation">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="" class="header__link">LIFESTYLE</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">PHOTODIARY</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">MUSIC</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">TRAVEL</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero-container">
+        <ul class="hero__list">
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/music-festival@1.png, ./images/music-festival@2.png">
+                <img src="./images/music-festival.png" alt="festival" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">LIFESTYLE</p>
+              <h3 class="hero__title">More than just a music festival</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero-article">
+              <picture>
+                <source srcset="./images/coffee@1.png, ./images/coffee@2.png">
+                <img src="images/coffee.png" alt="coffee" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">LIFESTYLE</p>
+              <h3 class="hero__title">Life tastes better with coffee</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source src="./images/american-dream@1.png, ./images/american-dream@2.png">
+                <img src="./images/american-dream.png" alt="dream" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">PHOTODIARY</p>
+              <h3 class="hero__title">American dream</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/exploring-alps@1.png, ./images/exploring-alps@2.png">
+                <img src="./images/exploring-alps.png" alt="alps" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">PHOTODIARY</p>
+              <h3 class="hero__title">A day exploring the alps</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/songs-for-running@1.png, ./images/songs-for-running@2.png">
+                <img src="./images/songs-for-running.png" alt="songs" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">lifystyle</p>
+              <h3 class="hero__title">Top 10 songs for running</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/winter-days@1.png, ./images/winter-days@2.png">
+                <img src="./images/winter-days.png" alt="winter" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">lifystyle</p>
+              <h3 class="hero__title">Cold winter days</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+        </ul>
+        <button type="button" class="btn">Load more</button>
       </div>
-    </header>
-    <main class="main">
-      <section class="hero">
-        <div class="container hero-container">
-          <ul class="hero__list">
-            <li class="hero__item">
-              <article class="hero__article">
-                <img
-                  src="./images/music-festival.png"
-                  alt="festival"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">LIFESTYLE</p>
-                <h3 class="hero__title">More than just a music festival</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-            <li class="hero__item">
-              <article class="hero-article">
-                <img
-                  src="images/coffee.png"
-                  alt="coffee"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">LIFESTYLE</p>
-                <h3 class="hero__title">Life tastes better with coffee</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-            <li class="hero__item">
-              <article class="hero__article">
-                <img
-                  src="./images/american-dream.png"
-                  alt="dream"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">PHOTODIARY</p>
-                <h3 class="hero__title">American dream</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-            <li class="hero__item">
-              <article class="hero__article">
-                <img
-                  src="./images/exploring-alps.png"
-                  alt="alps"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">PHOTODIARY</p>
-                <h3 class="hero__title">A day exploring the alps</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-            <li class="hero__item">
-              <article class="hero__article">
-                <img
-                  src="./images/songs-for-running.png"
-                  alt="songs"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">lifystyle</p>
-                <h3 class="hero__title">Top 10 songs for running</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-            <li class="hero__item">
-              <article class="hero__article">
-                <img
-                  src="./images/winter-days.png"
-                  alt="winter"
-                  class="hero__image"
-                />
-                <p class="hero__subtitle">lifystyle</p>
-                <h3 class="hero__title">Cold winter days</h3>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.
-                </p>
-              </article>
-            </li>
-          </ul>
-          <button type="button" class="btn">Load more</button>
-        </div>
-      </section>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
+
 </html>
