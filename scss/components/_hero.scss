@@ -3,8 +3,6 @@
 @use "../base/reset" as *;
 
 .hero {
-  padding-right: 147px;
-  padding-left: 147px;
   padding-bottom: 66px;
 
   &__list {
@@ -18,7 +16,7 @@
   }
 
   &__item {
-    flex-basis: calc((100% - 65px) / 3);
+    flex-basis: calc((100% - 64px) / 2);
   }
 
   &__image {
@@ -26,10 +24,10 @@
   }
 
   &__subtitle {
+    font-size: 14px;
     margin-bottom: 32px;
     color: $subtitle-color;
     font-family: $secondary-font;
-    line-height: 18.66px;
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -38,7 +36,6 @@
     margin-bottom: 40px;
     font-size: 30px;
     color: $article-text-color;
-    line-height: 16.09px;
     font-weight: 400;
   }
 
@@ -46,11 +43,12 @@
     font-family: $main-font;
     color: $article-text-color;
     font-weight: 400;
-    line-height: 18.66px;
   }
 }
 
 .btn {
+  font-family: inherit;
+  font-size: 14px;
   background-color: white;
   color: $article-text-color;
   border-color: $article-text-color;
@@ -59,6 +57,5 @@
   display: block;
   margin: 0 auto;
   padding: 20px 48px 21px 49px;
-  line-height: 18.66px;
   letter-spacing: 0;
 }
