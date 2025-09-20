@@ -1,15 +1,7 @@
 @use '../utils/variables' as *;
 
-* {
-    box-sizing: border-box;
-}
-
 a:hover {
     color: $link-color;
-}
-
-a {
-    text-decoration: none;
 }
 
 body {
@@ -22,13 +14,4 @@ body {
 .container {
     width: 908px;
     margin: 0 auto;
-}
-
-body,
-h2,
-h3,
-p,
-ul {
-    margin: 0;
-    padding: 0;
 }
