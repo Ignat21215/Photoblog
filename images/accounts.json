@@ -1,0 +1,22 @@
+{
+  "activeAccountLocalId": "206cc576e6c744f08889290f85b57c86",
+  "accounts": {
+    "206cc576e6c744f08889290f85b57c86": {
+      "accessToken": "206cc576e6c744f08889290f85b57c86",
+      "accessTokenExpiresAt": "2050-07-02T10:56:30.717167800Z",
+      "eligibleForMigration": false,
+      "hasMultipleProfiles": false,
+      "legacy": true,
+      "persistent": true,
+      "userProperites": [],
+      "localId": "206cc576e6c744f08889290f85b57c86",
+      "minecraftProfile": {
+        "id": "206cc576e6c744f08889290f85b57c86",
+        "name": "НИК"
+      },
+      "remoteId": "206cc576e6c744f08889290f85b57c86",
+      "type": "Xbox",
+      "username": "НИК"
+    }
+  }
+}

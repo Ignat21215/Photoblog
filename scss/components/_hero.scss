@@ -37,7 +37,6 @@
   }
 
   &__desc {
-    font-family: $main-font;
     color: $article-text-color;
     font-weight: 400;
     font-size: 14px;
@@ -47,7 +46,7 @@
 .btn {
   font-family: inherit;
   font-size: 14px;
-  background-color: none;
+  background-color: transparent;
   color: $article-text-color;
   border-color: $article-text-color;
   border-width: 1px;
